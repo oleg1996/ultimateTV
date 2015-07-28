@@ -1,0 +1,519 @@
+body{
+    background: #171717;
+}
+
+.body{
+    width: 100%;
+    background: #171717;
+}
+
+#body{
+    width: 1000px;
+    background: #171717;
+    margin: 0 auto;
+}
+
+#header{
+    width: 100%;
+    height: 196px;
+}
+
+.user_menu{
+    width: 100%;
+    height: 33px;
+    background: url("../image/user)menu_bg.png");
+}
+
+#user_menu{
+    width: 1000px;
+    height: 33px;
+    margin: 0 auto;
+    background: url("../image/user)menu_bg.png");
+}
+
+.menu{
+    width: 100%;
+    background: url("../image/menu_bg.gif") repeat-x;
+}
+
+#menu{
+    width: 1000px;
+    height: 52px;
+    margin: 0 auto;
+    background: url("../image/menu_bg.gif") repeat-x;
+}
+
+#footer{
+    width: 100%;
+    height: 93px;
+}
+
+#logo{
+    font-family: Freeroad-Regular;
+    color: #fff;
+    font-size: 35px;
+    float: left;
+    margin-top: 62px;
+    margin-left: 39px;
+}
+
+.ultimate{
+    font-family: Freeroad-Regular;
+    color: #73b52a;
+    font-size: 35px;
+}
+
+.com,.comm{
+    font-family: Freeroad-Regular;
+    font-size: 10px;
+}
+
+.comm{
+    width: 165px;
+}
+
+.text{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: -16px;
+    width: 195px;
+}
+
+#login{
+    width: 357px;
+    height: 130px;
+    float: right;
+    background-color: rgba(33,33,33,0.5);
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#login form{
+    width: 188px;
+    height: 103px;
+    margin: 17px 16px 0 19px;
+    float: left;
+    font-size: 12px;
+    font-family: Freeroad-Regular;
+    color: #fff;
+}
+
+#login form input{
+    font-size: 12px;
+    font-family: Freeroad-Regular;
+    color: #fff;
+}
+
+#login form input[type=text], #login form input[type=password]{
+    background-color: rgba(366,366,366,0.2);
+    border: none;
+    outline: none;
+    padding-left: 14px;
+    width: 174px;
+    height: 26px;
+    margin-bottom: 14px;
+}
+
+#login form input[type=submit]{
+    width: 87px;
+    height: 23px;
+    cursor: pointer;
+    background: #7fc434;
+    border: none;
+    outline: none;
+    box-shadow: inset 0px -10px 15px 0px rgba(79,139,13,0.8);
+}
+
+#login form input[type=button]{
+    width: 87px;
+    height: 24px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: url("../image/register.png");
+}
+
+#photo{
+    width: 117px;
+    height: 97px;
+    background-color: rgba(64,64,64, 0.2);
+    float: right;
+    margin-top: 17px;
+    margin-right: 17px;
+}
+
+#photo span{
+    font-family: Freeroad-Regular;
+    font-size: 63px;
+    color: rgba(366,366,366,0.1);
+    padding: 16px 41px;
+    position: absolute;
+}
+
+#list{
+    padding: 11px;
+}
+
+#list li{
+    font-family: Freeroad-Regular;
+    font-size: 12px;
+    color: #6a6a6a;
+    float: left;
+    padding: 0 25px;
+    margin-left: 39px;
+}
+
+#list li a{
+    text-decoration: none;
+    color: #6a6a6a;
+}
+
+#list li a:hover{
+    color: #fff;
+}
+
+#cat li{
+    margin-top: 9px;
+    float: left;
+    font-size: 18px;
+    font-family: Freeroad-Regular;
+    padding: 8px 0;
+}
+
+#cat a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 32px;
+}
+
+#cat a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+#cat{
+    margin-left: 80px;
+}
+
+.li1,.li2,.li3,.li4,.li5{
+    border-right: 1px solid rgba(23,23,23,0.2);
+}
+
+#walking_dead{
+    background: url("../image/walking_dead.png");
+    height: 284px;
+    width: 100%;
+}
+
+#text-shape{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#text-shape .trend{
+    font-family: Freeroad-Regular;
+    font-size: 18px;
+    color: rgba(366,366,366,0.3);
+    margin-top: 20px;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.name-and-rating{
+    float: right;
+    margin-top: 177px;
+    font-size: 18px;
+    font-family: Freeroad-Regular;
+    color: #fff;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.percent{
+    font-family: Freeroad-Regular;
+    font-size: 48px;
+    color: #73b52a;
+}
+
+#chose{
+    height: 266px;
+}
+
+#chose li{
+    margin: 10px 4px;
+    float: left;
+    cursor: pointer;
+    border-top: 10px solid transparent;
+}
+
+#chose li:hover{
+    border-top: 10px solid #438000;
+}
+
+#recomendation_left{
+    margin-top: 17px;
+    float: left;
+    width: 494px;
+    height: 370px;
+}
+
+#recomendation_right{
+    margin-top: 17px;
+    width: 494px;
+    height: 370px;
+    float: right;
+}
+
+#recomendation{
+    height: 750px;
+}
+
+.left{
+    width: 494px;
+    height: 78px;
+    background: #73b52a;
+    float: left;
+    margin-bottom: 10px;
+    line-height: 17px;
+}
+
+.textbr{
+    font-family: Freeroad-Regular;
+    font-size: 30px;
+    color: #fff;
+    margin: 4px 41px;
+    position: absolute;
+    width: 244px;
+}
+
+.textbr span{
+    font-size: 12px;
+}
+
+.date{
+    width: 168px;
+    height: 78px;
+    background: #fff;
+    margin-bottom: 63px;
+    font-family: Freeroad-Regular;
+    font-size: 48px;
+    color: #73b52a;
+    position: absolute;
+    margin-left: 326px;
+}
+
+.date span{
+    margin: 14px 27px;
+    position: absolute;
+}
+
+.arrow{
+    margin-top: 88px;
+    width: 493px;
+    height: 277px;
+    background: url("../image/arrow.png");
+    position: relative;
+}
+
+.person{
+    margin-top: 88px;
+    width: 495px;
+    height: 277px;
+    background: url("../image/person.png");
+    position: relative;
+}
+
+#fanart_arrow{
+    width: 100%;
+    height: 53px;
+    background-color: rgba(0,0,0,0.27);
+    float: none;
+    position: absolute;
+    bottom: 0;
+    font-family: Freeroad-Regular;
+    font-size: 24px;
+    color: #fff;
+}
+
+.name{
+    margin-top: 17px;
+    margin-left: 41px;
+    position: absolute;
+}
+
+.right{
+    float: right;
+    margin-top: 17px;
+    margin-right: 30px;
+}
+
+.green{
+    color: #73b52a;
+}
+
+#latest_tv_news{
+    float: left;
+    width: 494px;
+    margin-top: 15px;
+}
+
+#latest_tv_show{
+    width: 494px;
+    float: right;
+    margin-top: 15px;
+}
+
+#latest_tv_news_bg{
+    background: #fff;
+    margin-top: 78px;
+    padding: 23px 40px;
+    font-family: Calibri;
+    font-size: 14px;
+    color: #171717;
+}
+
+#latest_tv_show_bg{
+    height: 232px;
+    width: 100%;
+    background: #5c971b;
+    margin-top: 78px;
+    position: relative;
+}
+
+#latest_tv_show_bg img{
+
+}
+
+#rev_poster{
+    background: url("../image/rev_poster.png");
+    width: 160px;
+    height: 100%;
+    position: absolute;
+}
+
+.textbr_latest{
+    font-family: Freeroad-Regular;
+    font-size: 24px;
+    color: #fff;
+    margin: 35px 30px;
+    position: absolute;
+    width: 400px;
+}
+
+.textbr_news{
+    font-family: Freeroad-Regular;
+    font-size: 36px;
+    color: #fff;
+    margin: 34px 40px;
+    position: absolute;
+}
+
+#touch_poster{
+    background: url("../image/touch_poster.png");
+    width: 95px;
+    height: 140px;
+    float: left;
+    margin-right: 15px;
+}
+
+#latest_tv_news_bg span{
+    font-family: Freeroad-Regular;
+    font-size: 14px;
+    font-weight: bold;
+    color: #171717;text-transform: uppercase;
+    margin-bottom: 3px;
+    display: block;
+}
+
+#buttons{
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+#btn1{
+    font-family: Freeroad-Regular;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    background: #292929;
+    outline:none;
+    border: 1px solid #585858;
+    width: 161px;
+    margin-right: 15px;
+}
+
+#btn2{
+    font-family: Freeroad-Regular;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    background: #7fc434;
+    box-shadow: inset 0px -10px 15px 0px rgba(79,139,13,0.8);
+    border: none;
+    width: 110px;
+}
+
+.user_coment{
+    margin-left: 240px;
+}
+
+.back{
+    margin: 0 auto;
+    font-family: Freeroad-Regular;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #fff;
+    display: table;
+    padding-bottom: 22px;
+}
+
+.back img{
+    position: absolute;
+    padding-left: 20px;
+}
+
+.bottom_ul{
+    margin: 0 auto !important;
+    font-family: Freeroad-Bold;
+    text-align: center;
+}
+
+.bottom_ul li{
+    display: inline;
+    display: -webkit-inlene;
+    padding: 0 12px;
+}
+
+.bottom_ul li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #5E5E5E;
+    text-decoration: none;
+}
+
+.bottom_ul li a:hover{
+    color: #ffffff;
+}
+
+
+.next_footer{
+    width: 100%;
+    height: 46px;
+    background: #5c971b;
+    min-width: 1000px;
+}
+
+.next_footer1{
+    padding: 16px 0 0 41px;
+    margin: 0 auto;
+    width: 959px;
+    height: auto;
+    color: rgba(255,255,255,0.5);
+    background: #5c971b;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Freeroad-Bold;
+}

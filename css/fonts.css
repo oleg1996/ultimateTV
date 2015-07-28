@@ -1,0 +1,20 @@
+@font-face {
+    font-family : Freeroad-Regular;
+    src: url(../fonts/freeroad/Freeroad%20Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : Freeroad-Italic;
+    src: url(../fonts/freeroad/Freeroad%20Italic.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : Freeroad-Bold;
+    src: url(../fonts/freeroad/Freeroad%20Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
